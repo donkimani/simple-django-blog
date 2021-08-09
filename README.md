@@ -6,9 +6,14 @@ python3 -m venv environment_name
 ```
 activate the environment
 ```
-. /environment_name/bin/activate
+. /environment_name/bin/activate - for linux
+. /environment_name/scripts/activate - for windows
+
 ```
 install the requirements.txt
+```
+pip3 install -r requirements.txt
+````
 
 create a user and database for postgresql
 ```
