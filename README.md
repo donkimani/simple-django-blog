@@ -17,7 +17,7 @@ pip3 install -r requirements.txt
 
 create a user and database for postgresql
 ```
-su postgres
+sudo -- su postgres
 createuser -dP blog
 createdb -E utf8 -U blog blog
 ```
